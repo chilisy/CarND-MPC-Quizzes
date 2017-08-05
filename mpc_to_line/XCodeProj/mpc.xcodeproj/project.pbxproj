@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		373A725AF8F9417A83ACCF53 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA16A7C474FB4CC4B0B2796C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A589737522364AA6B1BCDD03 /* CMake Rules */,
+			);
+			dependencies = (
+				D50538764B0D4B47BFBC7C1D /* PBXTargetDependency */,
+				3A437E709C05431EA2128C9B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D0B3AF36A6CE4833A8F68E3C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D69A0A38E1F4716B82AD0C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5945BE72A0FC4AD5B2ADC620 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05014871172443229BB1AE48 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/MPC.cpp */ = {isa = PBXBuildFile; fileRef = FDC34D0A88094587AF04A52B /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/MPC.cpp */; };
+		B819148BCB6A44858EDABEC6 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 81BE914D1F7441B6AEA85516 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		28F2258A2CDD44F185317391 = {
+			isa = PBXBuildStyle;
+		};
+		391D139613BD4479897213EC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		706577675B7944EC97AA03AB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7151B1C1B0214CC394C1FDCF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F46F554C977B4F94BDDCAC0D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		16456EDDA0ED42CCB0FCFC5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B3C50417E04377A5029C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AD8869B3084419A108C530;
+			remoteInfo = mpc;
+		};
+		31498F2B94E046C8BC488B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B3C50417E04377A5029C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B3AF36A6CE4833A8F68E3C;
+			remoteInfo = ZERO_CHECK;
+		};
+		EA028C72E4FF41E088403185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B3C50417E04377A5029C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B3AF36A6CE4833A8F68E3C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2126079AB34742A3801101E8 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D3FA48358BE4B13BD7BA3E4 /* mpc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = mpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BE914D1F7441B6AEA85516 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		95718249D57840E9A320B6F5 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FDC34D0A88094587AF04A52B /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/MPC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MPC.cpp; path = src/MPC.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		09D891F154C7476DA1B98044 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		126A1D76AFED4CBBB85121A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B522EA36B2024305A2851819 /* mpc */,
+				70E6766659874F0FB81A0B5C /* ALL_BUILD */,
+				AF81E0D7C7A842ACA373FA5A /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		181D2ABC7EA64DA19E20B27C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC34D0A88094587AF04A52B /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/MPC.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5C4A933F3F884CC0A382E79A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		70E6766659874F0FB81A0B5C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				ACAC3295C2C149488342F52C /* CMake Rules */,
+				2126079AB34742A3801101E8 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8E77EE7ED815480B96684D0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FA48358BE4B13BD7BA3E4 /* mpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9215C1D4B8D5456C9CE0B464 = {
+			isa = PBXGroup;
+			children = (
+				126A1D76AFED4CBBB85121A3 /* Sources */,
+				09D891F154C7476DA1B98044 /* Resources */,
+				8E77EE7ED815480B96684D0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAC3295C2C149488342F52C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AF81E0D7C7A842ACA373FA5A /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A933F3F884CC0A382E79A /* CMake Rules */,
+				95718249D57840E9A320B6F5 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B522EA36B2024305A2851819 /* mpc */ = {
+			isa = PBXGroup;
+			children = (
+				181D2ABC7EA64DA19E20B27C /* Source Files */,
+				81BE914D1F7441B6AEA85516 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/CMakeLists.txt */,
+			);
+			name = mpc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2AD8869B3084419A108C530 /* mpc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4FE891C0C846689426D164 /* Build configuration list for PBXNativeTarget "mpc" */;
+			buildPhases = (
+				905080B87FA6424B95271F19 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8BD88A271F4AA0A512A0C5 /* PBXTargetDependency */,
+			);
+			name = mpc;
+			productName = mpc;
+			productReference = 6D3FA48358BE4B13BD7BA3E4 /* mpc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B3C50417E04377A5029C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = F7574129A31F48F6BE5DD69E /* Build configuration list for PBXProject "mpc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				706577675B7944EC97AA03AB /* Debug */,
+				391D139613BD4479897213EC /* Release */,
+				F46F554C977B4F94BDDCAC0D /* MinSizeRel */,
+				7151B1C1B0214CC394C1FDCF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9215C1D4B8D5456C9CE0B464;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				373A725AF8F9417A83ACCF53 /* ALL_BUILD */,
+				D0B3AF36A6CE4833A8F68E3C /* ZERO_CHECK */,
+				C2AD8869B3084419A108C530 /* mpc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		339F29C70E6947E6B6E44C85 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5945BE72A0FC4AD5B2ADC620 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj -f /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A589737522364AA6B1BCDD03 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj -f /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F756193E4AE74101A6CA6F28 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905080B87FA6424B95271F19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05014871172443229BB1AE48 /* /Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/MPC.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A437E709C05431EA2128C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2AD8869B3084419A108C530 /* mpc */;
+			targetProxy = 16456EDDA0ED42CCB0FCFC5F /* PBXContainerItemProxy */;
+		};
+		AC8BD88A271F4AA0A512A0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B3AF36A6CE4833A8F68E3C /* ZERO_CHECK */;
+			targetProxy = 31498F2B94E046C8BC488B26 /* PBXContainerItemProxy */;
+		};
+		D50538764B0D4B47BFBC7C1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B3AF36A6CE4833A8F68E3C /* ZERO_CHECK */;
+			targetProxy = EA028C72E4FF41E088403185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0480A9F99EB24DEDA48769EF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj/build";
+			};
+			name = RelWithDebInfo;
+		};
+		0F6F12DF2A514079ACAB3A8E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1A9E7CF724F949BDBECC28A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -I/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3 -I/usr/local/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lipopt -lpython";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mpc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2E243645F4784821B7D592EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3 -I/usr/local/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lipopt -lpython";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mpc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		394A47B42730465BBF39C71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3F25E9A1BE8046B1B54C0265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		463B604BD51140F6BE471CED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		56C82366C1894D67A63AF79D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj/build";
+			};
+			name = Debug;
+		};
+		57872B665D3B4008915D0E5B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D4AA6D9821D4AC0A3D2B0A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj/build";
+			};
+			name = MinSizeRel;
+		};
+		644E3D747482455382807A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3 -I/usr/local/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lipopt -lpython";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mpc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		745BB56FFCA74BC7A0206962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		757969699A884BA3A052B122 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		970DC75125254981BBCF911A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj/build";
+			};
+			name = Release;
+		};
+		A9B5FA26613747DAB84B1BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -I/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3 -I/usr/local/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lipopt -lpython";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = mpc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CD58E0F09A794AABB1AB67DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/src/Eigen-3.3",/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Chili/Desktop/CarND-MPC-Quizzes/mpc_to_line/XCodeProj";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A4FE891C0C846689426D164 /* Build configuration list for PBXNativeTarget "mpc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B5FA26613747DAB84B1BA1 /* Debug */,
+				644E3D747482455382807A8F /* Release */,
+				2E243645F4784821B7D592EB /* MinSizeRel */,
+				1A9E7CF724F949BDBECC28A6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D69A0A38E1F4716B82AD0C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745BB56FFCA74BC7A0206962 /* Debug */,
+				3F25E9A1BE8046B1B54C0265 /* Release */,
+				463B604BD51140F6BE471CED /* MinSizeRel */,
+				0F6F12DF2A514079ACAB3A8E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA16A7C474FB4CC4B0B2796C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD58E0F09A794AABB1AB67DF /* Debug */,
+				394A47B42730465BBF39C71C /* Release */,
+				57872B665D3B4008915D0E5B /* MinSizeRel */,
+				757969699A884BA3A052B122 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7574129A31F48F6BE5DD69E /* Build configuration list for PBXProject "mpc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C82366C1894D67A63AF79D /* Debug */,
+				970DC75125254981BBCF911A /* Release */,
+				5D4AA6D9821D4AC0A3D2B0A7 /* MinSizeRel */,
+				0480A9F99EB24DEDA48769EF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B3C50417E04377A5029C54 /* Project object */;
+}

@@ -19,21 +19,36 @@ const double Lf = 2;
 // NOTE: actuators is [delta, a]
 Eigen::VectorXd globalKinematic(Eigen::VectorXd state,
                                 Eigen::VectorXd actuators, double dt) {
-  Eigen::VectorXd next_state(state.size());
-  return next_state;
+    Eigen::VectorXd next_state(state.size());
+    
+    double x = state[0];
+    double y = state[1];
+    double psi = state[2];
+    double v = state[3];
+    
+    double delta = actuators[0];
+    double a = actuators[1];
+    
+    next_state << x+v*cos(psi)*dt,
+    y+v*sin(psi)*dt,
+    psi+v*delta*dt/Lf,
+    v+a*dt;
+    
+    return next_state;
+    return next_state;
 }
 
 int main() {
-  // [x, y, psi, v]
-  Eigen::VectorXd state(4);
-  // [delta, v]
-  Eigen::VectorXd actuators(2);
-
-  state << 0, 0, deg2rad(45), 1;
-  actuators << deg2rad(5), 1;
-
-  // should be [0.212132, 0.212132, 0.798488, 1.3]
-  auto next_state = globalKinematic(state, actuators, 0.3);
-
-  std::cout << next_state << std::endl;
+    // [x, y, psi, v]
+    Eigen::VectorXd state(4);
+    // [delta, v]
+    Eigen::VectorXd actuators(2);
+    
+    state << 0, 0, deg2rad(45), 1;
+    actuators << deg2rad(5), 1;
+    
+    // should be [0.212132, 0.212132, 0.798488, 1.3]
+    auto next_state = globalKinematic(state, actuators, 0.3);
+    
+    std::cout << next_state << std::endl;
 }
